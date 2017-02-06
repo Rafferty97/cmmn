@@ -23,7 +23,7 @@ module.exports = function build(watch, params)
       nodeModules[mod] = 'commonjs ' + mod;
     });
 
-  const fileRegex = /\.(png|jpg|jpeg|svg|woff2?|ttf|eot|otf|php)(\?.*)?$/;
+  const fileRegex = /\.(png|jpg|jpeg|svg|woff2?|ttf|eot|otf|php|mp4)(\?.*)?$/;
 
   const webpackConfig = [
     {
